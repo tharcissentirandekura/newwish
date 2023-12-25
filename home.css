@@ -1,0 +1,45 @@
+body{
+    background-image: url("image.jpeg"); 
+    color:rgb(195, 75, 211);
+}
+h1{
+    position:relative;
+    display: grid;
+    justify-content: center;
+    top:100px;
+    font-size: 60px;
+}
+.big-button{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    width: 50%;
+    height:30em;
+    top:12em;
+    left: 30em;
+    margin-right: 10px;
+    border-radius: 7px;
+    
+    
+}
+.name ,.value{
+    position: relative;
+    height: 60px;
+    font-size: 24px;
+    background-color: red;
+    margin-right:20px;
+    border-radius: 7px;
+    color: white;
+    text-align: center;
+    top: 10em;
+    left: 15%;
+    
+}
+.name{
+    width: 50%;
+}
+
+.value{
+    width: 20%;
+}
